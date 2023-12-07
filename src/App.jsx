@@ -6,6 +6,9 @@ import { Features } from "./components/Features";
 import { Billing } from "./components/Billing";
 import { Carddeal } from "./components/Carddeal";
 import { Testimonial } from "./components/Testimonial";
+import { Clients } from "./components/Clients";
+import { CTA } from "./components/CTA";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Billing/>
         <Carddeal/>
         <Testimonial/>
+        <Clients/>
+        <CTA/>
+        <Footer/>
         
       </div>
     </>

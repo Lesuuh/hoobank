@@ -20,6 +20,16 @@
 .poppins {
   font-family: "Poppins", sans-serif;
 }
+
+.hoverme{
+  filter: invert(59%) sepia(48%) saturate(5812%) hue-rotate(194deg) brightness(94%) contrast(88%);
+  fill: #FF0000;
+}
+
+.hover-brightness:hover{
+  filter: brightness(1.2);
+  transition: all 0.5s;
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -56,7 +66,14 @@
     #11101d 91.61%
   );
 }
-
+.bg-black-gradient-hover:hover {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,

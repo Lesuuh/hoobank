@@ -26,19 +26,35 @@ export const TestCard = () => {
       title: "Founder & Leader",
       img: people03,
     },
+    {
+      id: "feedback-4",
+      content:
+        "It is usually people in the money business, finance, and international trade that are really rich.",
+      name: "Kenn Gallagher",
+      title: "Founder & Leader",
+      img: people03,
+    },
+    {
+      id: "feedback-5",
+      content:
+        "It is usually people in the money business, finance, and international trade that are really rich.",
+      name: "Kenn Gallagher",
+      title: "Founder & Leader",
+      img: people03,
+    },
   ];
   return (
-    <div className="flex flex-col gap-10 md:grid md:grid-cols-3">
+    <div className="flex flex-col gap-10 lg:grid lg:grid-cols-2 xl:grid-cols-3 mt-10">
       {feedback.map((feedback) => {
         return (
-          <div key={feedback.id}  className="bg-black-gradient rounded-xl px-5 py-5">
-            <img src={quotes} alt="quotes" />
-            <p>{feedback.content}</p>
-            <div className="grid grid-cols-2 items-center">
-              <img src={feedback.img} alt="image" />
+          <div key={feedback.id}  className="bg-black-gradient-hover transition duration-1000  rounded-xl px-[20px] py-[30px] lg:px-[40px] lg:py-[60px] flex flex-col">
+            <img src={quotes} alt="quotes" className="w-[42px]"/>
+            <p className="mt-[40px] mb-[24px]">{feedback.content}</p>
+            <div className="flex gap-5 items-center justify-start">
+              <img src={feedback.img} alt="image" className="w-[50px]" />
               <div>
                 <h4>{feedback.name}</h4>
-                <p>{feedback.title}</p>
+                <p className="text-dimWhite">{feedback.title}</p>
               </div>
             </div>
           </div>

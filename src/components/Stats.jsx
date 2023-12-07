@@ -19,8 +19,8 @@ export const Stats = () => {
         },
       ];
   return (
-    <section className="px-5 md:px-36 w-full max-w-[1400px] mx-auto ">
-        <div className="flex flex-col justify-between md:flex-row ">
+    <section className="px-5 lg:px-36 w-full max-w-[1400px] mx-auto ">
+        <div className="flex flex-col justify-between sm:flex-row ">
             {stats.map((stat)=> {
                 return (
                     <div key={stat.id} className="mt-3 md:flex items-center gap-5">

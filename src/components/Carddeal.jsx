@@ -15,7 +15,7 @@ export const Carddeal = () => {
       </p>
       <Button
         text="Get Started"
-        className="mt-5 md:mt-10 bg-blue-gradient px-4 py-2 rounded-xl font-semibold text-primary"
+        className="mt-5 md:mt-10 bg-blue-gradient px-[20px] py-[10px] md:px-[33px] md:py-[19px] rounded-xl font-semibold text-primary"
       />
     </div>
     <div className="">
