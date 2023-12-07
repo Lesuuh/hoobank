@@ -13,14 +13,14 @@ export const Hero = ({home}) => {
           </p>
         </div>
         <div className="flex flex-row items-center mt-10">
-          <div className="flex-1 text-4xl  text-white md:text-6xl  font-semibold  md:leading-[75px]">
+          <div className="flex-1 text-5xl  text-white md:text-6xl  font-semibold  md:leading-[75px]">
             The Next <span className="text-gradient">Generation</span>
           </div>
           <div className="hidden lg:block">
             <Getstarted />
           </div>
         </div>
-        <div className="flex-1 text-4xl text-white md:text-6xl font-semibold  md:leading-[75px]">
+        <div className="flex-1 text-5xl text-white md:text-6xl font-semibold  md:leading-[75px]">
           Payment Method.
         </div>
         <p className="text-dimWhite max-w-[500px] mt-5 ">

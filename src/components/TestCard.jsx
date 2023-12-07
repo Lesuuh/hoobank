@@ -44,7 +44,7 @@ export const TestCard = () => {
     },
   ];
   return (
-    <div className="flex flex-col gap-10 lg:grid lg:grid-cols-2 xl:grid-cols-3 mt-10">
+    <div className="flex flex-col gap-10 lg:grid lg:grid-cols-2 xl:grid-cols-3 mt-10 z-10">
       {feedback.map((feedback) => {
         return (
           <div key={feedback.id}  className="bg-black-gradient-hover transition duration-1000  rounded-xl px-[20px] py-[30px] lg:px-[40px] lg:py-[60px] flex flex-col">
