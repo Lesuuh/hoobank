@@ -3,7 +3,7 @@ import { card } from "../assets"
 
 export const Carddeal = () => {
   return (
-    <section className="max-w-[1400px] px-5 mt-[100px] md:mt-[190px] flex flex-col md:grid md:grid-cols-2 gap-5 lg:px-36">
+    <section id="carddeal" className="max-w-[1400px] mx-auto px-5 mt-[100px] md:mt-[190px] flex flex-col md:grid md:grid-cols-2 gap-5 lg:px-36">
     <div>
       <h2 className="text-3xl md:text-4xl font-semibold">
         You do the business, we’ll handle the money.

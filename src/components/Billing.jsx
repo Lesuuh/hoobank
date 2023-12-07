@@ -1,7 +1,7 @@
 import { bill, apple, google } from "../assets";
 export const Billing = () => {
   return (
-    <section className="max-w-[1400px] px-5 mt-[100px] md:mt-[190px] flex flex-col md:grid md:grid-cols-2 gap-5 lg:px-36">
+    <section id="billing" className="max-w-[1400px] mx-auto px-5 mt-[100px] md:mt-[190px] flex flex-col md:grid md:grid-cols-2 gap-5 lg:px-36">
       <div>
         <img src={bill} alt="bill" />
       </div>

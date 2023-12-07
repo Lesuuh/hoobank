@@ -1,9 +1,9 @@
 import { discount, robot } from "../assets";
 import { Getstarted } from "./Getstarted";
 
-export const Hero = () => {
+export const Hero = ({home}) => {
   return (
-    <div className="flex flex-col max-w-[1400px] mx-auto md:grid md:grid-cols-2 w-full items-center px-5 py-10 lg:px-36">
+    <div id={home} className="flex flex-col max-w-[1400px] mx-auto md:grid md:grid-cols-2 w-full items-center px-5 py-10 lg:px-36">
       <div className="left">
         <div className=" max-w-[408px] rounded-xl bg-discount-gradient flex flex-row items-center p-1">
           <img src={discount} alt="" />
@@ -42,6 +42,9 @@ export const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
       </div>
+      <div className=" lg:hidden">
+            <Getstarted />
+          </div>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import { Button } from "./Button";
 
 export const CTA = () => {
   return (
-    <section className="max-w-[1400px] mx-auto px-5 lg:px-36 mt-[50px] lg:mt-[100px]">
+    <section id="getstarted" className="max-w-[1400px] mx-auto px-5 lg:px-36 mt-[50px] lg:mt-[100px]">
       <div className="bg-black-gradient rounded-xl flex flex-col lg:flex-row lg:items-center lg:justify-between px-[50px] lg:px-[100px] py-[35px] lg:py-[70px]">
         <div className="max-w-[600px]">
           <h2 className="text-4xl font-semibold lg:text-5xl">
